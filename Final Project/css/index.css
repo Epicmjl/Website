@@ -1,0 +1,32 @@
+:root {
+  /* Base color variables */
+  --dark-navy: #264653;
+  --teal: #2A9D8F;
+  --sand: #E9C46A;
+  --orange: #F4A261;
+  --coral: #E76F51;
+  --font-default: Arial, sans-serif;
+
+  /* Semantic color mappings */
+  --color-bg-body: var(--sand);
+  --color-text-body: var(--dark-navy);
+
+  --color-bg-header: var(--dark-navy);
+  --color-text-header: var(--sand);
+
+  --color-bg-nav: var(--teal);
+  --color-text-nav: var(--dark-navy);
+
+  --color-bg-footer: var(--orange);
+  --color-text-footer: var(--dark-navy);
+}
+
+.intro h1 {
+  font-size: 15rem;
+  margin-bottom: 1rem;
+}
+
+.intro p {
+  font-size: 3rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
